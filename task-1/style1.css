@@ -1,0 +1,61 @@
+.abc {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 520px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img {
+    width: 180px;
+    height:200px;
+}
+.image{
+    display: flex;
+}
+.personal-information {
+    font-size: 18px;
+}
+.birth-date {
+    display: flex;
+}
+.date {
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.text {
+    display: flex;
+}
+.add-list {
+    margin-left: 5px;
+}
+.language {
+    margin-top: 20px;
+}
+.level {
+    margin-top: 10px;
+}
+.salary {
+    margin-top:  20px; ;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: center;
+}
+.save {
+    margin-top: 5px;
+}
+ul.dashed {
+    list-style-type:none ;
+}
+ul.dashed > li {
+    text-indent: -5px;
+  }
+  ul.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+  }
